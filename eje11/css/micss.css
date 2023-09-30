@@ -1,0 +1,35 @@
+div {
+  padding-top: 15px;
+  padding-left: 10px;
+  border: solid rgb(0, 205, 251) 1px;
+  text-align: center;
+}
+
+p {
+  text-align: right;
+  padding-right: 10px;
+}
+
+div input {
+  display: none;
+
+}
+
+div label {
+    display: inline-block;
+    padding: 10px 20px;
+    border: solid rgb(97, 97, 97) 1.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;  /* para evitar que la selection de un texto en el label*/
+}
+
+div label:hover {
+  background-color: #f0f0f0;
+}
+div input:checked +label {
+  background-color: #b4a7a7;
+
+}
+
+

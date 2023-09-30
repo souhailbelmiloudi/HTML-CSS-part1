@@ -1,0 +1,44 @@
+
+table {
+  border: 1px solid #000;
+  margin: 20px auto;
+}
+
+
+th {
+  border: 1px solid #000;
+}
+
+td {
+  
+  border: 1px solid #000 
+}
+.dif{
+  padding-right: 60px; 
+}
+
+
+
+
+.table2  {
+  
+  caption-side: bottom;
+}
+
+.table2 th { 
+  text-align: right;
+}
+.table2 th {
+  background-color: #A7C942;
+  color: #FFFF;
+}
+.table2 tr:nth-child(odd){
+  background-color: #EAF2D3; 
+}
+
+tr:hover {
+  background-color: #151515; 
+  color: aqua;
+}
+
+

@@ -1,0 +1,35 @@
+/*Esta regla afecta a todods los Elemntpos de la Pagina*/
+*{
+    font-family: arial;
+}
+/*Esta regla afecta a todos los parrafos*/
+p{
+  color: #5555;  
+}
+/*Esta regla afecta a todos los parrafod que se encuentran dentro de un elemento con el atribito id = "primero"*/
+#primero{
+    color: #336699;
+}
+
+/*Esta regla afecta a todos los enlaces*/
+a {
+color: #CC3300;
+}
+
+/*esto regla afecta a todos lo <em> que sencuentran dentro de un elemento con el  atributo id="primero"*/
+#primero em{
+    background:  #FFFFCC;
+    padding: 1em;
+}
+
+/*esto regla afecta a todos lo <em> que sencuentran dentro de un elemento con el  atributo class="especial"*/
+.especial   {
+    background:  #FFCC99;
+    border: 1px solid #ff9900;
+    padding: 1em;
+}
+
+/*esto regla afecta a todos lo <span> que sencuentran dentro de un elemento con el  atributo class="normal"*/
+.normal span{
+   font-weight: bold;
+}

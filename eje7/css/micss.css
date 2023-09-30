@@ -1,0 +1,36 @@
+.a {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(198, 203, 203); 
+    padding: 10px; /* Espaciado interno para la lista */
+    position: relative; /* Necesario para el posicionamiento absoluto del ::before */
+  }
+  
+  .a li {
+    padding-left: 10px; /* Espacio entre la línea y los elementos */
+  }
+  
+  /*añadir el pseudoelemento */
+  .a li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%; /* Hace que la línea tenga la misma altura que el fondo */
+    width: 5px; /* Ancho de la línea vertical */
+    background-color: red;
+  }
+  
+
+  .b{
+    list-style: none;
+    padding: 10px; /* Espaciado interno para la lista */
+    position: relative; 
+
+  }
+
+  .b li{
+    border: 1px solid rgb(227, 218, 218);
+    
+    padding: 15px;
+  }

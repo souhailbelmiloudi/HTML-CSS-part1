@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Eje-9</title>
+    <link rel="stylesheet" href="css/micss.css" />
+</head>
+
+<body>
+     <div>
+
+    <input id="a" type="checkbox">
+     <label for="a">Item 1</label>
+    
+    <input id="b" type="checkbox"> 
+    <label for="b">Item 2</label>
+    
+    <input id="c" type="checkbox">
+    <label for="c">Item 3</label>
+    
+    <input id="d" type="checkbox">
+    <label for="d">Item 4</label>
+    
+    <input id="e" type="checkbox"> 
+    <label for="e">Item 5</label>
+    
+    <input id="f" type="checkbox">
+    <label for="f">Item 6</label>
+    
+    <p>Numero de Elementos Seleccionados: 0 </p> 
+
+    </div>
+    
+    </body>
+   
+    
+    <script>
+      
+        function contarCheckboxes() {
+            
+            let checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            
+        
+            let contador = 0;
+    
+         
+            checkboxes.forEach(function(checkbox) {
+                if (checkbox.checked) {
+                    contador++;
+                }
+            });
+    
+    
+            document.querySelector('p').textContent = 'Número de Elementos Seleccionados: ' + contador;
+        }
+    
+        // Agrega un event listener a todos los checkboxes para que se actualice el contador cuando cambien
+        let checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        checkboxes.forEach(function(checkbox) {
+            checkbox.addEventListener('change', contarCheckboxes);
+        });
+    </script>
+    
+
+</html>

@@ -1,0 +1,44 @@
+/* Estilo para letter-spacing */
+p:first-child {
+    letter-spacing: 3px;
+}
+
+p:nth-child(2) {
+    letter-spacing: -1px;
+}
+
+/* Estilo para line-height */
+.line-height-1 {
+    line-height: 3;
+}
+
+.line-height-2 {
+    line-height: 2;
+}
+
+/* Estilo para word-spacing */
+#word-spacing-1 {
+    word-spacing: 5px;
+}
+
+#word-spacing-2 {
+    word-spacing: -4px;
+}
+
+/* Estilo para text-shadow */
+.text-shadow-1 {
+    text-shadow: 2px 2px 4px #c70f0f;
+}
+
+.text-shadow-2 {
+    text-shadow: -2px -2px 4px #6010d9;
+}
+
+/* Estilo para text-indent */
+.text-indent-1 {
+    text-indent: 30px;
+}
+
+.text-indent-2 {
+    text-indent: 200px;
+}

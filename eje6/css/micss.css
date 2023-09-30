@@ -1,0 +1,16 @@
+ul.a{
+   list-style-type: armenian;
+}
+ul.b{
+    list-style-type: disclosure-closed;
+}
+
+ol.c{
+    list-style-type: disclosure-open;
+}
+
+ol.d{
+    list-style-image: url("https://manz.dev/assets/stickers/batmanz.png");
+
+}
+
